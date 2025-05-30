@@ -48,3 +48,17 @@ iconClose.addEventListener("click", deactivatePopup);
       });
     });
 
+
+  function deactivatePopup() {
+  Cover_box.classList.remove("active-popup");
+
+  // Show Home section when popup closes
+  const sections = document.querySelectorAll('section');
+  sections.forEach(section => section.classList.remove('active'));
+
+  const homeSection = document.getElementById('home');
+  if (homeSection) {
+    homeSection.classList.add('active');
+    homeSection.scrollIntoView({ behavior: 'smooth' });
+  }
+}
