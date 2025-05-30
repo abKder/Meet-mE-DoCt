@@ -26,3 +26,25 @@ Login_link.addEventListener("click", deactivateCoverBox);
 Login.addEventListener("click", activatePopup);
 iconClose.addEventListener("click", deactivatePopup);
 
+
+    const links = document.querySelectorAll('[data-target]');
+    const sections = document.querySelectorAll('section');
+
+    links.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault(); // Stop default anchor behavior
+
+        const targetId = this.dataset.target;
+
+        // Hide all sections
+        sections.forEach(section => section.classList.remove('active'));
+
+        // Show the clicked section
+        const targetSection = document.getElementById(targetId);
+        if (targetSection) {
+          targetSection.classList.add('active');
+          targetSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+

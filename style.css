@@ -10,7 +10,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url(Images/bg\ image.png);
+  /* background-image: url(Images/bg\ image.png); */
   background-size: cover;
   background-position: center;
 }
@@ -24,8 +24,6 @@ header {
   padding: 20px 100px;
   background-color: white;
   opacity: 80%;
-  /* rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -153,7 +151,782 @@ ul li a:hover {
   }
 }
 
-/* meet me DoCt */
+/* Home section start here.... */
+.Home1 {
+  margin-top: 90px;
+}
+.Home_up {
+  height: 500px;
+  border-radius: 8px;
+  background: #2196f3;
+  padding-top: auto;
+  padding-bottom: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#home_h_p h1 {
+  font-size: 50px;
+}
+#home_h_p p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.div_btn {
+  margin-top: 15px;
+}
+
+.btn_home {
+  height: 50px;
+  background: transparent;
+  border: 2px solid #05190a;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #05190a;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.home_image img {
+  border-radius: 8px;
+}
+
+/* Why choose us start here.... */
+.about_meetme {
+  margin-top: 60px;
+  padding-top: 45px;
+  width: 1700px;
+  height: 550px;
+  border-radius: 10px;
+  background: #e1f9f9;
+}
+.about_mtme {
+  justify-items: center;
+}
+.about_mtme h1 {
+  font-size: 50px;
+}
+.about_mtme p {
+  margin-top: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.why_choose_box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.availabl {
+  border-radius: 10px;
+  background: #99f3e4;
+  width: 350px;
+  height: 300px;
+  padding-top: 65px;
+  text-align: center;
+}
+
+/* Why choose us end here.... */
+
+/* about doctor start here... */
+.about_doctor {
+  margin-top: 60px;
+  padding-top: 45px;
+  width: 1700px;
+  height: 550px;
+  border-radius: 10px;
+  background: #a5d6d6;
+}
+.about_doc {
+  justify-items: center;
+}
+
+.about_doc h1 {
+  font-size: 50px;
+}
+
+.about_doc p {
+  margin-top: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+.doctor_box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.doctor_available {
+  border-radius: 10px;
+  background: #b8e5ee;
+  width: 350px;
+  height: 300px;
+  padding-top: 65px;
+  text-align: center;
+}
+/* about doctor end here.... */
+
+/* Ai health care section start here...... */
+.Ai_section {
+  margin-top: 60px;
+  padding-top: 45px;
+  width: 1700px;
+  height: 550px;
+  border-radius: 10px;
+  background: #a5f4f4;
+}
+
+.Ai_header {
+  justify-items: center;
+}
+.Ai_header h1 {
+  font-size: 50px;
+}
+.Ai_header p {
+  margin-top: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+/* Ai health care section end here...... */
+
+/* Home section end here....... */
+
+/* About section start here.... */
+
+/* About section 1 start here....  */
+
+.about-sec-1 {
+  margin-top: 90px;
+  width: 1700px;
+  height: 580px;
+  background-image: url(Images/image-18.jpg);
+  background-size: cover;
+  border-radius: 9px;
+}
+.abot-sec-1 {
+  padding-top: 250px;
+  padding-left: 150px;
+}
+.abot-sec-1 h1 {
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+.abot-sec-1 p {
+  font-size: 35px;
+}
+
+/* about section 1 end here.... */
+
+/* About section 2 start here.... */
+
+.about-sec-2 {
+  margin-top: 60px;
+  width: 1700px;
+  height: 580px;
+  background-image: url(Images/image-20.png);
+  background-size: cover;
+  border-radius: 9px;
+}
+
+.abt-sec-2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 150px;
+}
+
+.abt-sec-2-1 h2 {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.abt-sec-2-1 h1 {
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
+.abt-sec-2-1 p {
+  font-size: 20px;
+}
+
+.abt-sec-2-2 {
+  margin-top: -80px;
+}
+
+.abt-sec-2-2-1 {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.abt-sec-2-2-box {
+  border-radius: 8px;
+  width: 220px;
+  height: 220px;
+  background-color: #c9c8c8;
+  margin-right: 20px;
+}
+
+.abt-sec-2-2-box h1 {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.abt-sec-2-2-box p {
+  font-size: 15px;
+  text-align: center;
+}
+
+/* about section 2 end here..... */
+
+/* About section 3 start here... */
+
+.about-sec-3 {
+  margin-top: 60px;
+  width: 1700px;
+  height: 600px;
+  background: #dfe1e0;
+  border-radius: 9px;
+}
+.abt-sec-3-text {
+  justify-items: center;
+  padding-top: 65px;
+}
+
+.abt-sec-3-text h1 {
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.abt-sec-3-text p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.abt-sec-3-box {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 65px;
+}
+
+.abt-sec-3-box-text {
+  width: 300px;
+  height: 250px;
+  background-color: #afb3b1;
+  border-radius: 8px;
+}
+.abt-sec-3-box-text h1 {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 15px;
+}
+.abt-sec-3-box-text p {
+  font-size: 15px;
+  text-align: center;
+}
+/* about section 3 end here..... */
+
+/* about section end here.... */
+
+/* Doctor section start here..... */
+
+/* Doctor section 1 start here..... */
+
+.doctor-sec-1 {
+  margin-top: 90px;
+  width: 1700px;
+  height: 580px;
+  background: #dfe1e0;
+  border-radius: 9px;
+}
+
+.doct-sec-1 {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.doct-sec-1-1 {
+  padding-top: 180px;
+  padding-left: 200px;
+}
+
+.doct-sec-1-1 h1 {
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
+.doct-sec-1-1 p {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.doct-sec-1-1 button {
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: large;
+  font-weight: bold;
+}
+.doct-sec-1-2 {
+  height: 590px;
+  padding-right: 5px;
+}
+
+.doct-sec-1-2 img {
+  border-radius: 8px;
+}
+
+/* doctor section 1 end here..... */
+
+/* Doctor section 2 start here.... */
+
+.doctor-sec-2 {
+  margin-top: 60px;
+  width: 1700px;
+  height: 580px;
+  background-image: url(Images/image16.png);
+  background-size: cover;
+  border-radius: 9px;
+}
+
+.doct-sec-2 {
+  justify-items: center;
+  padding-top: 200px;
+}
+
+.doct-sec-2 h1 {
+  font-size: 45px;
+  padding-bottom: 20px;
+}
+
+.doct-sec-2 p {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.doct-sec-2 button {
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: large;
+  font-weight: bold;
+  background-color: transparent;
+}
+/* doctor section 2 end here.... */
+
+/* doctor section 3 start here.... */
+
+.doctor-sec-3 {
+  margin-top: 60px;
+  width: 1700px;
+  height: 580px;
+  background: #dfe1e0;
+  border-radius: 9px;
+}
+.doct-sec-3 {
+  justify-items: center;
+  padding-top: 55px;
+}
+.doct-sec-3 h1 {
+  font-size: 45px;
+}
+
+.dcot-sec-3-1-1 {
+  display: flex;
+  justify-content: space-around;
+}
+.doct-sec-3-1 {
+  width: 300px;
+  height: 350px;
+  border-radius: 8px;
+  background: #f6f3f3;
+  margin-top: 65px;
+}
+
+.doct-sec-3-1 img {
+  width: 120px;
+  height: 120px;
+  margin-top: -30px;
+  border-radius: 55%;
+  margin-bottom: 35px;
+  margin-left: 80px;
+}
+
+.doct-sec-3-1 h1 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.doct-sec-3-1 p {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* doctor section 3 end here.... */
+
+/* doctor section 4 start here... */
+
+.doctor-sec-4 {
+  margin-top: 60px;
+  width: 1700px;
+  height: 580px;
+  background: #afb3b1;
+  border-radius: 9px;
+}
+
+.doct-sec-4 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 165px;
+}
+
+.doct-sec-4-1 h1 {
+  font-size: 45px;
+  padding-bottom: 35px;
+}
+
+.doct-sec-4-1 button {
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  font-size: large;
+  font-weight: bold;
+  background-color: transparent;
+}
+.doct-sec-4-2 {
+  margin-left: -130px;
+}
+.doct-sec-4-2 h1 {
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+
+.doct-sec-4-2 p {
+  font-size: 20px;
+  margin-top: -20px;
+}
+/* doctor section 4 end here.... */
+
+/* doctor section end here....... */
+
+/* Services section start here...... */
+
+/* service section 1 start here.... */
+.services-1 {
+  background-image: url(/Images/image-1.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 90px;
+  padding-top: 45px;
+  width: 1700px;
+  height: 580px;
+  border-radius: 10px;
+}
+
+.sect-1 {
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.sec-1-1 h1 {
+  font-size: 20px;
+}
+.sec-1-1 p {
+  font-size: 15px;
+}
+
+.sec-1-2 h1 {
+  padding-top: 35px;
+  font-size: 45px;
+}
+
+.sec-1-2 p {
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* service section 1 end here..... */
+
+/* service section 2 start here...... */
+
+.service-2 {
+  margin-top: 60px;
+  padding-top: 45px;
+  width: 1700px;
+  height: 580px;
+  border-radius: 10px;
+  background: #f1f4f4;
+}
+
+.sect-2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sec-2-1 img {
+  height: 500px;
+  width: 450px;
+  border-radius: 8px;
+}
+.sec-2-2 {
+  padding-right: 200px;
+}
+.sec-2-2 h1 {
+  padding-top: 35px;
+  font-size: 45px;
+}
+.sec-2-2 p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+/* service section 2 end here.....*/
+
+/* service section 3 start here... */
+
+.service-3 {
+  margin-top: 60px;
+  padding-top: 45px;
+  width: 1700px;
+  height: 650px;
+  border-radius: 10px;
+  background: #c99e03;
+}
+
+.sec-3-1 {
+  justify-items: center;
+}
+.sec-3-1 h1 {
+  font-size: 45px;
+}
+
+.sec-3-2 {
+  padding-top: 65px;
+  display: flex;
+  justify-content: space-around;
+}
+.sect-3 {
+  display: grid;
+}
+.sect-3 img {
+  width: 450px;
+  height: 350px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+.sect-3 button {
+  font-size: 25px;
+  border-radius: 25px;
+  height: 80px;
+  width: 450px;
+  font-weight: 600;
+  background: transparent;
+}
+/* service section 3 end here.... */
+
+/* service section 4 start here.... */
+
+.service-4 {
+  margin-top: 60px;
+  padding-top: 45px;
+  width: 1700px;
+  height: 550px;
+  border-radius: 10px;
+  background: #eed889;
+}
+.ser-4-1 {
+  justify-items: center;
+}
+.ser-4-1 h1 {
+  font-size: 55px;
+  padding-bottom: 40px;
+}
+
+.ser-4-2 {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sect-4 h1 {
+  padding-bottom: 30px;
+}
+.sect-4 p {
+  padding-bottom: 35px;
+}
+.sect-4 button {
+  font-size: 25px;
+  border-radius: 25px;
+  height: 60px;
+  width: 200px;
+  font-weight: 600;
+  background: transparent;
+}
+/* service section 4 end here.... */
+
+/* service section 5 start here.... */
+
+.service-5 {
+  margin-top: 60px;
+  padding-top: 45px;
+  width: 1700px;
+  height: 550px;
+  border-radius: 10px;
+  background: #e4be6b;
+}
+
+.ser-5 {
+  padding-top: 35px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ser-5-1 h1 {
+  font-size: 40px;
+  padding-bottom: 25px;
+}
+
+.ser-5-1 p {
+  padding-bottom: 25px;
+  /* font-size: 15px; */
+}
+
+.ser-5-2 {
+  margin-top: -18px;
+}
+
+/* service section 5 end here.... */
+
+/* service section 6 start here..... */
+
+.service-6 {
+  margin-top: 60px;
+  width: 1700px;
+  height: 600px;
+  border-radius: 10px;
+  background: #c48807;
+}
+
+.sec-6-1 {
+  background-image: url(Images/image-7.png);
+  width: 1700px;
+  height: 300px;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.sec-6-1 {
+  padding-top: 120px;
+  padding-left: 80px;
+}
+
+.sec-6-1 h1 {
+  font-size: 25px;
+}
+
+.sec-6-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.sec-6-2-1 h1 {
+  font-size: 45px;
+}
+
+.sec-6-2-3 h1 {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+/* service section 6 end here..... */
+
+/* Service section end here..... */
+
+/* Contact section start here */
+
+/* contact section 1 start here */
+
+.contact-sec-1 {
+  margin-top: 90px;
+  padding-top: 45px;
+  width: 1700px;
+  height: 550px;
+  border-radius: 10px;
+  background-image: url(Images/image-13.png);
+  background-size: cover;
+}
+.cont-sec-1 {
+  padding-top: 200px;
+  padding-left: 150px;
+}
+.cont-sec-1 h1 {
+  font-size: 60px;
+  padding-bottom: 15px;
+}
+.cont-sec-1 p {
+  font-size: 20px;
+}
+
+/* contact section 1 end here */
+
+/* Contac section 2 start here */
+
+.contact-sec-2 {
+  margin-top: 60px;
+  width: 1700px;
+  height: 600px;
+  border-radius: 10px;
+  background: #e9c6f3;
+}
+
+.cont-sec-2 {
+  justify-items: center;
+  padding-top: 80px;
+}
+.cont-sec-2 h1 {
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+.cont-sec-2 p {
+  text-align: center;
+  font-size: 15px;
+}
+.cont-sec-2-1{
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.cont-sec-2-2{
+  width: 300px;
+  height: 250px;
+  border-radius: 8px;
+  background: #e5eeec;
+  text-align: center;
+  padding-top: 90px;
+}
+.cont-sec-2-2 p{
+  padding-top: 15px;
+}
+
+/* contact section 2 end here */
+
+
+
+/* contact section end here */
+
+/* Home section end here..... */
+
+/* meet me DoCt start here....  */
 .LiveDoct {
   color: #05190a;
   user-select: none;
@@ -204,7 +977,7 @@ ul li a:hover {
   height: 520px;
 }
 
-.cover_box.form_box {
+.cover_box .form_box {
   width: 100%;
   padding: 40px;
 }
@@ -246,7 +1019,7 @@ ul li a:hover {
   z-index: 1;
   cursor: pointer;
 }
-.cover_box .icon_close:hover{
+.cover_box .icon_close:hover {
   background-color: red;
 }
 .form_box h2 {
@@ -337,7 +1110,7 @@ ul li a:hover {
   font-weight: 500;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #2196f3;
 }
 
@@ -361,7 +1134,7 @@ ul li a:hover {
 
 /* footer section style start here */
 
-.footer {
+/* .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -370,8 +1143,6 @@ ul li a:hover {
   text-align: center;
   background-color: white;
   opacity: 80%;
-  /* rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px); */
 }
 
 .footer_content {
@@ -397,4 +1168,12 @@ ul li a:hover {
 
 .social_icon a:hover {
   color:#2196f3;
+} */
+
+section {
+  display: none;
+}
+
+section.active {
+  display: block;
 }

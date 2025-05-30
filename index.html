@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg">
-
     <!-- Header section start -->
 
     <header>
@@ -17,114 +16,849 @@
         <label for="check" class="check_btn">
           <i class="fas fa_bars"></i>
         </label>
-        <label class="LiveDoct"
-          >M<span style="color: rgb(243, 104, 5)">ee</span >T  m<span style="color: rgb(243, 104, 5)">E</span>  Do<span
-            style="color: rgb(241, 106, 9)"
-            >C</span
-          >t</label
-        >
+        <label class="LiveDoct">M<span style="color: rgb(243, 104, 5)">ee</span>T m<span style="color: rgb(243, 104, 5)">E</span>Do<span style="color: rgb(241, 106, 9)">C</span>t</label>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><button class="btnLogin Login1_link ">Login</button></li>
-          <!-- <li><a href="#" class="Login1_link">Login</a></li> -->
+          <li><a href="#" data-target="home">Home</a></li>
+          <li><a href="#" data-target="about">About</a></li>
+          <li><a href="#" data-target="doctor">Doctor</a></li>
+          <li><a href="#" data-target="services">Services</a></li>
+          <li><a href="#" data-target="contact">Contact</a></li>
+          <li><button data-target="login" class="btnLogin Login1_link">Login</button></li>
         </ul>
       </div>
     </header>
 
     <!-- Header section end -->
 
-    <!-- Login Section start here -->
+    <main>
+      <!-- Home section start here -->
 
-    <div class="cover_box">
-      <span class="icon_close"><ion-icon name="close-outline" ></ion-icon></span>
-      <div class="form_box login">
-        <h2>Login</h2>
-        <form action="#">
-          <div class="input_box">
-            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
-            <input type="email " required />
-            <label>Email</label>
+      <section id="home" class="active">
+        <div class="Home1">
+          <div class="Home_up">
+            <div id="home_h_p">
+              <h1>
+                Healthcare at Your <br />
+                Fingertips
+              </h1>
+              <p>
+                Connect with licensed healthcare professionals from the comfort
+                of
+                <br />
+                your home. Get the care you need, when you need it.
+              </p>
+              <div class="div_btn">
+                <button class="btn_home">Book Appointment</button>
+                <button class="btn_home">Learn More</button>
+              </div>
+            </div>
+            <div class="home_image">
+              <img src="Images/image-10.png" alt="" />
+            </div>
           </div>
-          <div class="input_box">
-            <span class="icon"
-              ><ion-icon name="lock-closed-outline"></ion-icon
-            ></span>
-            <input type="password" required />
-            <label>Passeword</label>
-          </div>
-          <div class="remember_forgot">
-            <label> <input type="checkbox" />Remember me </label>
-            <a href="#">Forgot password?</a>
-          </div>
-          <button type="submit" class="btn">Login</button>
-          <div class="Login_register">
+        </div>
+        <!-- Why meet us  start here..... -->
+        <section class="about_meetme">
+          <div class="about_mtme">
+            <h1>Why Choose Meet mE DoCt</h1>
             <p>
-              Don't have an account?
-              <a href="#" class="register_link">Register</a>
+              Our telehealt platform connects you with healthcare professionals
+              quickly <br />
+              and securely.
             </p>
           </div>
-        </form>
-      </div>
-
-      <!-- Login section end here -->
-
-      <!-- registration section start here -->
-
-      <div class="form_box register">
-        <h2>Register</h2>
-        <form action="#">
-          <div class="input_box">
-            <span class="icon"
-              ><ion-icon name="person-outline"></ion-icon
-            ></span>
-            <input type="text " required />
-            <label>Username</label>
+          <div class="why_choose_box">
+            <div class="availabl">
+              <h1>Image add here</h1>
+              <h1>24/7 Availability</h1>
+              <p>
+                Access healthcare <br />
+                professionals around the <br />
+                clock for urgent medical <br />
+                needs.
+              </p>
+            </div>
+            <div class="availabl">
+              <h1>Image add here</h1>
+              <h1>Secure & Private</h1>
+              <p>
+                HIPAA-compliant platform <br />
+                ensures your medical <br />
+                infomation stays <br />
+                confidential.
+              </p>
+            </div>
+            <div class="availabl">
+              <h1>Image add here</h1>
+              <h1>Easy Communication</h1>
+              <p>
+                Chat, video calls, and <br />
+                messaging make it simple to <br />
+                discuss your health <br />
+                concerns.
+              </p>
+            </div>
+            <div class="availabl">
+              <h1>Image add here</h1>
+              <h1>AI Health Assistant</h1>
+              <p>
+                Get immediate response to <br />
+                common health questions <br />
+                when doctors are <br />
+                unavailable.
+              </p>
+            </div>
           </div>
+        </section>
 
-          <div class="input_box">
-            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
-            <input type="email " required />
-            <label>Email</label>
-          </div>
+        <!-- Why meet us end here..... -->
 
-          <div class="input_box">
-            <span class="icon"
-              ><ion-icon name="lock-closed-outline"></ion-icon
-            ></span>
-            <input type="password" required />
-            <label>Passeword</label>
-          </div>
-
-          <div class="remember_forgot">
-            <label>
-              <input type="checkbox" />Agree to terms & conditions
-            </label>
-            <a href="#">Forgot password?</a>
-          </div>
-
-          <button type="submit" class="btn">Register</button>
-
-          <div class="Login_register">
+        <!-- Docter section start here... -->
+        <div class="about_doctor">
+          <div class="about_doc">
+            <h1>Meet Our Specialists</h1>
             <p>
-              Already have an account?
-              <a href="#" class="login_link">Login</a>
+              Our platform connects you with board-certifide healthcare
+              professionals <br />
+              across various specialties
             </p>
           </div>
-        </form>
-      </div>
-    </div>
+          `
+          <div class="doctor_box">
+            <div class="doctor_available">
+              <h1>Image add here</h1>
+              <h1>Dr Abdul Kader</h1>
+              <p>Family Medicine</p>
+              <p>15+ years experience.</p>
+              <p>Harvard Medical School</p>
+              <p>Next availabl: Today, 2:00 PM.</p>
+            </div>
 
-    <!-- Register section end here -->
+            <div class="doctor_available">
+              <h1>Image add here</h1>
+              <h1>Dr Abdul Kader</h1>
+              <p>Family Medicine</p>
+              <p>15+ years experience.</p>
+              <p>Harvard Medical School</p>
+              <p>Next availabl: Today, 2:00 PM.</p>
+            </div>
 
+            <div class="doctor_available">
+              <h1>Image add here</h1>
+              <h1>Dr Abdul Kader</h1>
+              <p>Family Medicine</p>
+              <p>15+ years experience.</p>
+              <p>Harvard Medical School</p>
+              <p>Next availabl: Today, 2:00 PM.</p>
+            </div>
+
+            <div class="doctor_available">
+              <h1>Image add here</h1>
+              <h1>Dr Abdul Kader</h1>
+              <p>Family Medicine</p>
+              <p>15+ years experience.</p>
+              <p>Harvard Medical School</p>
+              <p>Next availabl: Today, 2:00 PM.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Docter section end here.... -->
+
+        <!-- AI Healthcare section start here.....-->
+        <div class="Ai_section">
+          <div class="Ai_header">
+            <h1>Meet mE DoCt - Your AI Health Assistant</h1>
+            <p>
+              When doctors are unavailable, our AI assistant can help answer
+              question, <br />
+              assess symptoms, and guide you to appropriate care.
+            </p>
+          </div>
+          <div>
+            <div></div>
+          </div>
+        </div>
+        <!-- AI Healthcare section end here....... -->
+      </section>
+
+      <!-- Home section end here  -->
+
+      <!-- About section start here.... -->
+
+      <section id="about">
+        <!-- About section 1 start here.... -->
+
+        <div class="about-sec-1">
+          <div class="abot-sec-1">
+            <h1>About Us</h1>
+            <p>We aspire to dedication.</p>
+          </div>
+        </div>
+
+        <!-- about section 1 end here.... -->
+
+        <!-- About section 2 start here.... -->
+
+        <div class="about-sec-2">
+          <div class="abt-sec-2">
+            <div class="abt-sec-2-1">
+              <h2>What we do</h2>
+              <h1>
+                We will be right there <br />
+                when you need us.
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus,<br />
+                luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+            </div>
+            <div class="abt-sec-2-2">
+              <div class="abt-sec-2-2-1">
+                <div  class="abt-sec-2-2-box">
+                  <h2>image here</h1>
+                  <h1>Online <br> doctor</h1>
+                  <p>
+                    Augue venenatis elementum <br />
+                    parturient vel habitasse <br />
+                    ornare et proin suscipit <br />
+                    sodales etiam
+                  </p>
+                </div>
+                <div  class="abt-sec-2-2-box">
+                  <h2>image here</h1>
+                  <h1>
+                    Online <br />
+                    Consultations
+                  </h1>
+                  <p>
+                    Augue venenatis elementum <br />
+                    parturient vel habitasse <br />
+                    ornare et proin suscipit <br />
+                    sodales etiam
+                  </p>
+                </div>
+              </div>
+              <div class="abt-sec-2-2-1">
+                <div class="abt-sec-2-2-box">
+                  <h2>image here</h1>
+                  <h1>Medicine <br> Store</h1>
+                  <p>
+                    Augue venenatis elementum <br />
+                    parturient vel habitasse <br />
+                    ornare et proin suscipit <br />
+                    sodales etiam
+                  </p>
+                </div>
+                <div  class="abt-sec-2-2-box">
+                  <h2>image here</h1>
+                  <h1>
+                    Personal Care <br />
+                    Applications
+                  </h1>
+                  <p>
+                    Augue venenatis elementum <br />
+                    parturient vel habitasse <br />
+                    ornare et proin suscipit <br />
+                    sodales etiam
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- about section 2 end here.... -->
+
+        <!-- About section 3 start here.... -->
+
+        <div class="about-sec-3">
+          <div class="abt-sec-3-text">
+            <h1>Our excellent care is our <br> specialty.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec <br> ullamcorper mattis, pulvinar dapibus leo.</p>
+          </div>
+          <div class="abt-sec-3-box">
+            <div class="abt-sec-3-box-text">
+              <h2>image here</h2>
+              <h1>Vision</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Ut elit tellus, luctus nec <br> ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+             <div class="abt-sec-3-box-text">
+              <h2>image here</h2>
+              <h1>Mission</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Ut elit tellus, luctus nec <br> ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+             <div class="abt-sec-3-box-text">
+              <h2>image here</h2>
+              <h1>Motto</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Ut elit tellus, luctus nec <br> ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- about section 3 end here.... -->
+
+        <!-- About section 4 start here.... -->
+
+        <div class="about-sec-4"></div>
+
+        <!-- about section 4 end here.... -->
+      </section>
+
+      <!-- about section end here.... -->
+
+      <!-- Doctor Section start here.... -->
+
+      <section id="doctor">
+        <!-- Doctor section 1 start here..... -->
+
+        <div class="doctor-sec-1">
+          <div class="doct-sec-1">
+            <div class="doct-sec-1-1">
+              <h1>
+                Silangan <br />
+                Medical
+              </h1>
+              <p>Where women's health comes first</p>
+              <button>Book a consultation</button>
+            </div>
+            <div class="doct-sec-1-2">
+              <img src="Images/image-11.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Doctor section 1 end here.... -->
+
+        <!-- Doctor section 2 start here... -->
+
+        <div class="doctor-sec-2">
+          <div class="doct-sec-2">
+            <h1>Committed to You</h1>
+            <p>
+              East Forge Medical is the region's most trusted provider of
+              women's healthcare. We <br />
+              have a highly trained team of medical experts, advanced
+              facilities, and unwavering <br />
+              commitment to the welfare of our patients.
+            </p>
+            <button>Learn More</button>
+          </div>
+        </div>
+
+        <!-- doctor section 2 end here..... -->
+
+        <!-- Doctor section 3 start here.... -->
+
+        <div class="doctor-sec-3">
+          <div class="doct-sec-3">
+            <h1>Meet our Doctors</h1>
+          </div>
+          <div class="dcot-sec-3-1-1">
+            <div class="doct-sec-3-1">
+              <img src="Images/image-14.png" alt="" />
+              <h1>Dr. Sara Herrera, M.D.</h1>
+              <p>Gynecologist</p>
+              <p>
+                With over a decade of experience, Dr. <br />
+                Herrera is the resident expert on <br />
+                general gynecology and women's <br />
+                health.
+              </p>
+              <h1>+</h1>
+            </div>
+            <div class="doct-sec-3-1">
+              <img src="Images/image-13.png" alt="" />
+              <h1>Dr. Arnold Perez, M.D.</h1>
+              <p>Gynecologist & Obstetrician</p>
+              <p>
+                With over a decade of experience, Dr. <br />
+                Herrera is the resident expert on <br />
+                general gynecology and women's <br />
+                health.
+              </p>
+              <h1>+</h1>
+            </div>
+            <div class="doct-sec-3-1">
+              <img src="Images/image-12.png" alt="" />
+              <h1>Dr. Sara Herrera, M.D.</h1>
+              <p>Gynecologist</p>
+              <p>
+                With over a decade of experience, Dr. <br />
+                Herrera is the resident expert on <br />
+                general gynecology and women's <br />
+                health.
+              </p>
+              <h1>+</h1>
+            </div>
+            <div class="doct-sec-3-1">
+              <img src="Images/image-11.png" alt="" />
+              <h1>Dr. Sara Herrera, M.D.</h1>
+              <p>Gynecologist</p>
+              <p>
+                With over a decade of experience, Dr. <br />
+                Herrera is the resident expert on <br />
+                general gynecology and women's <br />
+                health.
+              </p>
+              <h1>+</h1>
+            </div>
+            <div class="doct-sec-3-1">
+              <img src="Images/image-21.png" alt="" />
+              <h1>Dr. Sara Herrera, M.D.</h1>
+              <p>Gynecologist</p>
+              <p>
+                With over a decade of experience, Dr. <br />
+                Herrera is the resident expert on <br />
+                general gynecology and women's <br />
+                health.
+              </p>
+              <h1>+</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- doctor section 3 end here..... -->
+
+        <!-- Doctor section 4 start here..... -->
+        <div class="doctor-sec-4">
+          <div class="doct-sec-4">
+            <div class="doct-sec-4-1">
+              <h1>
+                Silangan <br />
+                Medical
+              </h1>
+              <button>Book a consultation</button>
+            </div>
+            <div class="doct-sec-4-2">
+              <div class="doct-sec-4-2">
+                <h1>Get in Touch</h1>
+              </div>
+              <div class="doct-sec-4-2">
+                <h1>Mailing Address</h1>
+                <p>123 Anywhere St. Any City, ST 1234</p>
+              </div>
+              <div class="doct-sec-4-2">
+                <h1>Email Address</h1>
+                <p>abdulkader.im.run@gmail.com</p>
+              </div>
+              <div class="doct-sec-4-2">
+                <h1>Phone Number</h1>
+                <p>01581******</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- doctor section 4 end here...... -->
+      </section>
+
+      <!-- doctor section end here..... -->
+
+      <!-- Services section start here.... -->
+
+      <section id="services">
+        <!-- service section 1 start here.... -->
+        <div class="services-1">
+          <div class="sect-1">
+            <div class="sec-1-1">
+              <h1>Toledo</h1>
+              <p>physical therapy</p>
+            </div>
+            <div class="sec-1-2">
+              <h1>
+                Your path to better <br />
+                physical wellness <br />
+                starts here
+              </h1>
+              <p>
+                Count on our expert physical therapy experts to help you <br />
+                move better and feel better
+              </p>
+            </div>
+            <button class="btn_home">Schedule a Consultation</button>
+          </div>
+        </div>
+
+        <!-- service section 1 end here..... -->
+
+        <!-- service section 2 start here.... -->
+        <div class="service-2">
+          <div class="sect-2">
+            <div class="sec-2-1">
+              <img src="Images/image-2.png" alt="" />
+            </div>
+            <div class="sec-2-2">
+              <h1>
+                Feeling <br />
+                better starts <br />
+                with moving <br />
+                better
+              </h1>
+              <p>
+                Write a paragraph that talks about <br />
+                your company here. You can talk <br />
+                about your company's background,<br />
+                history, mission, vision, or philosophy. <br />
+                Anything that will introduce your <br />
+                brand's persona to your clients.
+              </p>
+              <button class="btn_home">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <!-- service section 2 end here.... -->
+
+        <!-- service section 3 start here.... -->
+
+        <div class="service-3">
+          <div class="sec-3-1">
+            <h1>What we offer</h1>
+          </div>
+
+          <div class="sec-3-2">
+            <div class="sect-3">
+              <img src="Images/image-3.png" alt="" />
+              <button>
+                Rehabilitative <br />
+                Pgysical Therapy
+              </button>
+            </div>
+            <div class="sect-3">
+              <img src="Images/image-4.png" alt="" />
+              <button>
+                Pediatric Physical <br />
+                Therapy
+              </button>
+            </div>
+            <div class="sect-3">
+              <img src="Images/image-5.png" alt="" />
+              <button>
+                Geriatric Physical <br />
+                Therapy
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- service section 3 end here.... -->
+
+        <!-- service section 4 start here.... -->
+
+        <div class="service-4">
+          <div class="ser-4-1">
+            <h1>What we specialize in</h1>
+          </div>
+          <div class="ser-4-2">
+            <div class="sect-4">
+              <h1>
+                Manual <br />
+                Therapy
+              </h1>
+              <p>
+                Share your product or service <br />
+                offerings here. Give your <br />
+                prospective clients an <br />
+                overview of why they should <br />
+                use it. Differentiate it from <br />
+                the others listed on this page.
+              </p>
+              <button>Learn More</button>
+            </div>
+            <div class="sect-4">
+              <h1>
+                Orthopedic <br />
+                Rehabilitation
+              </h1>
+              <p>
+                Share your product or service <br />
+                offerings here. Give your <br />
+                prospective clients an <br />
+                overview of why they should <br />
+                use it. Differentiate it from <br />
+                the others listed on this page.
+              </p>
+              <button>Learn More</button>
+            </div>
+            <div class="sect-4">
+              <h1>
+                Neuromuscular <br />
+                Re-education
+              </h1>
+              <p>
+                Share your product or service <br />
+                offerings here. Give your <br />
+                prospective clients an <br />
+                overview of why they should <br />
+                use it. Differentiate it from <br />
+                the others listed on this page.
+              </p>
+              <button>Learn More</button>
+            </div>
+            <div class="sect-4">
+              <h1>
+                Dry <br />
+                Needling
+              </h1>
+              <p>
+                Share your product or service <br />
+                offerings here. Give your <br />
+                prospective clients an <br />
+                overview of why they should <br />
+                use it. Differentiate it from <br />
+                the others listed on this page.
+              </p>
+              <button>Learn More</button>
+            </div>
+
+            <div class="sect-4">
+              <h1>
+                Dry <br />
+                Needling
+              </h1>
+              <p>
+                Share your product or service <br />
+                offerings here. Give your <br />
+                prospective clients an <br />
+                overview of why they should <br />
+                use it. Differentiate it from <br />
+                the others listed on this page.
+              </p>
+              <button>Learn More</button>
+            </div>
+          </div>
+        </div>
+        <!-- service section 4 end here..... -->
+
+        <!-- service section 5 start here.... -->
+
+        <div class="service-5">
+          <div class="ser-5">
+            <div class="ser-5-1">
+              <h1>
+                What we <br />
+                do best
+              </h1>
+              <p>
+                Our approach to <br />
+                physical therapy
+              </p>
+              <p>
+                Use this space to talk about your <br />
+                company's history, background,<br />
+                mission, or vision. Talk about your <br />
+                philosophy and how it affected your <br />
+                company's trajectory.
+              </p>
+              <p>
+                Use this space to talk about your <br />
+                company's history, background,<br />
+                mission, or vision. Talk about your <br />
+                philosophy and how it affected your <br />
+                company's trajectory.
+              </p>
+            </div>
+            <div class="ser-5-2">
+              <img src="Images/image-6.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <!-- service section 5 end here.... -->
+
+        <!-- service section 6 start here..... -->
+
+        <div class="service-6">
+          <div class="sec-6">
+            <div class="sec-6-1">
+              <h1>Trempleway</h1>
+              <h1>physical therapy</h1>
+            </div>
+            <div class="sec-6-2">
+              <div class="sec-6-2-1">
+                <h1>
+                  Book an <br />
+                  Appointment
+                </h1>
+              </div>
+              <div class="sec-6-2-2">
+                <p>
+                  123 Anywhere St. <br />
+                  Any City <br />
+                  Country <br />
+                  1234 <br />
+                  <br />
+                  Telephone: (123) 456-7890 <br />
+                  Mobile: (123) 456-7890 <br />
+                  <br />
+                  hello@reallygreatsite.com
+                </p>
+              </div>
+              <div class="sec-6-2-3">
+                <h1>Clinic Hours</h1>
+                <p>
+                  Monday: 8am – 7pm <br />
+                  Tuesday: 8am – 5pm <br />
+                  Wednesday: 8am – 5pm <br />
+                  Thursday: 8am – 7pm <br />
+                  Friday: 8am – 5pm <br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- service section 6 end here..... -->
+      </section>
+
+      <!-- Services section end here.... -->
+
+      <!-- Contact section start here.... -->
+
+      <section id="contact">
+
+        <!-- Contact section 1 start here... -->
+
+        <div class="contact-sec-1">
+            <div class="cont-sec-1">
+              <h1>Contact Us</h1>
+              <p>We would love to hear from you.</p>
+            </div>
+        </div>
+
+        <!-- contact section 1 end here.... -->
+
+        <!-- Contact section 2 start here... -->
+
+        <div class="contact-sec-2">
+
+          <div class="cont-sec-2">
+            <h1>Send us a message</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec <br> ullamcorper mattis, pulvinar dapibus leo.</p>
+          </div>
+          <div class="cont-sec-2-1">
+            <div class="cont-sec-2-2">
+              <h2>icon here</h2>
+              <h1>Location</h1>
+              <p>Cempaka Wangi No 22, Jakarta - <br> Indonesia</p>
+            </div>
+            <div class="cont-sec-2-2">
+              <h2>icon here</h2>
+              <h1>Email Us</h1>
+              <p>abdulkader.im.run@gmail.com - <br> makimran0379@gmail.com</p>
+            </div>
+            <div class="cont-sec-2-2">
+              <h2>icon here</h2>
+              <h1>Call Us</h1>
+              <p>Phone: 015810304** <br> Fax: +6221.2002.2***</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- contact section 2 end here.... -->
+
+        <!-- Contact section 3 start here... -->
+
+        <div class="contact-sec-3">
+
+        </div>
+
+        <!-- contact section 3 end here.... -->
+      </section>
+
+      <!-- contact section end here... -->
+
+      <!-- Login Section start here -->
+
+      <section id="login" class="cover_box">
+        <span class="icon_close"
+          ><ion-icon name="close-outline"></ion-icon
+        ></span>
+        <div class="form_box login">
+          <h2>Login</h2>
+          <form action="#">
+            <div class="input_box">
+              <span class="icon"
+                ><ion-icon name="mail-outline"></ion-icon
+              ></span>
+              <input type="email " required />
+              <label>Email</label>
+            </div>
+            <div class="input_box">
+              <span class="icon"
+                ><ion-icon name="lock-closed-outline"></ion-icon
+              ></span>
+              <input type="password" required />
+              <label>Passeword</label>
+            </div>
+            <div class="remember_forgot">
+              <label> <input type="checkbox" />Remember me </label>
+              <a href="#">Forgot password?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="Login_register">
+              <p>
+                Don't have an account?
+                <a href="#" class="register_link">Register</a>
+              </p>
+            </div>
+          </form>
+        </div>
+
+        <!-- Login section end here -->
+
+        <!-- registration section start here -->
+
+        <div class="form_box register">
+          <h2>Register</h2>
+          <form action="#">
+            <div class="input_box">
+              <span class="icon"
+                ><ion-icon name="person-outline"></ion-icon
+              ></span>
+              <input type="text " required />
+              <label>Username</label>
+            </div>
+
+            <div class="input_box">
+              <span class="icon"
+                ><ion-icon name="mail-outline"></ion-icon
+              ></span>
+              <input type="email " required />
+              <label>Email</label>
+            </div>
+
+            <div class="input_box">
+              <span class="icon"
+                ><ion-icon name="lock-closed-outline"></ion-icon
+              ></span>
+              <input type="password" required />
+              <label>Passeword</label>
+            </div>
+
+            <div class="remember_forgot">
+              <label>
+                <input type="checkbox" />Agree to terms & conditions
+              </label>
+              <a href="#">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="btn">Register</button>
+
+            <div class="Login_register">
+              <p>
+                Already have an account?
+                <a href="#" class="login_link">Login</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
     <!-- footer section start here -->
 
-    <div class="footer">
-      <footer>
+    <!-- <footer class="footer">
         <div class="footer_content">
-          <p>Copyright @ 2025 All Rights Reserved. CREATE BY Algoverse</p>
+          <p>Copyright @ 2025 All Rights Reserved. CREATE BY Team Algoverse</p>
           <div class="social_icon">
             <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
             <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
@@ -134,8 +868,7 @@
             <a href="#"><ion-icon name="mail-outline"></ion-icon></a>
           </div>
         </div>
-      </footer>
-    </div>
+      </footer> -->
 
     <!-- footer section end here -->
 
