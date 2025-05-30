@@ -11,6 +11,8 @@ body {
   align-items: center;
 }
 
+/* Header section start here.... */
+
 header {
   background: color #05190a;
   position: fixed;
@@ -121,6 +123,7 @@ ul li a:hover {
   .check_btn {
     display: block;
   }
+
   ul {
     position: fixed;
     width: 50%;
@@ -134,23 +137,32 @@ ul li a:hover {
     border-radius: 6px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   }
+
   header .navigation ul li {
     display: block;
     margin: 50px 0;
     line-height: 30px;
   }
+
   header .navigation ul li a {
     font-size: 20px;
   }
+
   #check:checked ~ ul {
     left: 0;
   }
 }
 
+/* header section end here..... */
+
 /* Home section start here.... */
+
+/* Home section 1 start here..... */
+
 .Home1 {
   margin-top: 90px;
 }
+
 .Home_up {
   height: 500px;
   border-radius: 8px;
@@ -165,6 +177,7 @@ ul li a:hover {
 #home_h_p h1 {
   font-size: 50px;
 }
+
 #home_h_p p {
   margin-top: 15px;
   font-size: 18px;
@@ -193,7 +206,10 @@ ul li a:hover {
   border-radius: 8px;
 }
 
-/* Why choose us start here.... */
+/* home section 1 end here..... */
+
+/* Home section 2 start here.... */
+
 .about_meetme {
   margin-top: 60px;
   padding-top: 45px;
@@ -202,12 +218,15 @@ ul li a:hover {
   border-radius: 10px;
   background: #e1f9f9;
 }
+
 .about_mtme {
   justify-items: center;
 }
+
 .about_mtme h1 {
   font-size: 50px;
 }
+
 .about_mtme p {
   margin-top: 15px;
   font-size: 25px;
@@ -221,16 +240,17 @@ ul li a:hover {
 }
 .availabl {
   border-radius: 10px;
-  background: #99f3e4;
+  background: #d8f3ee;
   width: 350px;
   height: 300px;
   padding-top: 65px;
   text-align: center;
 }
 
-/* Why choose us end here.... */
+/* home section 2 end here.... */
 
-/* about doctor start here... */
+/* Home section 3 start here... */
+
 .about_doctor {
   margin-top: 60px;
   padding-top: 45px;
@@ -265,30 +285,97 @@ ul li a:hover {
   padding-top: 65px;
   text-align: center;
 }
-/* about doctor end here.... */
 
-/* Ai health care section start here...... */
+/* home section 3 end here.... */
+
+/* Home section 4 start here.... */
+
+
+
+/* home section 4 end here.... */
+
+/* Home section 5 start here...... */
+
 .Ai_section {
   margin-top: 60px;
   padding-top: 45px;
   width: 1700px;
   height: 550px;
   border-radius: 10px;
-  background: #a5f4f4;
+  background: #c3f1f1;
 }
 
 .Ai_header {
   justify-items: center;
 }
+
 .Ai_header h1 {
   font-size: 50px;
 }
+
 .Ai_header p {
   margin-top: 15px;
   font-size: 25px;
   text-align: center;
 }
-/* Ai health care section end here...... */
+
+/* home section 5 end here...... */
+
+/* Home section 6 start here.... */
+
+.client-reviews{
+  margin-top: 60px;
+  padding-top: 45px;
+  width: 1700px;
+  height: 550px;
+  border-radius: 10px;
+  background: #eef3f3;
+}
+
+.Reviews_header{
+justify-content: center;
+text-align: center;
+}
+
+.Reviews_header h1{
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+.Reviews_div{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+
+.Reviews_box{
+  width: 300px;
+  height: 250px;
+  border-radius: 8px;
+  background: #ecf5f5;
+  text-align: center;
+}
+
+.Reviews_box h1{
+font-size: 25px;
+padding-bottom: 8px;
+padding-top: 20px;
+}
+
+.Reviews_box p{
+  font-size: 15px;
+  padding-bottom: 8px;
+}
+
+.Reviews_box img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: -45px;
+}
+
+/* home section 6 end here....... */
+
 
 /* Home section end here....... */
 
@@ -304,14 +391,17 @@ ul li a:hover {
   background-size: cover;
   border-radius: 9px;
 }
+
 .abot-sec-1 {
   padding-top: 250px;
   padding-left: 150px;
 }
+
 .abot-sec-1 h1 {
   font-size: 45px;
   padding-bottom: 20px;
 }
+
 .abot-sec-1 p {
   font-size: 35px;
 }
@@ -417,12 +507,14 @@ ul li a:hover {
   background-color: #afb3b1;
   border-radius: 8px;
 }
+
 .abt-sec-3-box-text h1 {
   font-size: 25px;
   text-align: center;
   padding-top: 70px;
   padding-bottom: 15px;
 }
+
 .abt-sec-3-box-text p {
   font-size: 15px;
   text-align: center;
@@ -516,6 +608,7 @@ ul li a:hover {
   font-weight: bold;
   background-color: transparent;
 }
+
 /* doctor section 2 end here.... */
 
 /* doctor section 3 start here.... */
@@ -527,10 +620,12 @@ ul li a:hover {
   background: #dfe1e0;
   border-radius: 9px;
 }
+
 .doct-sec-3 {
   justify-items: center;
   padding-top: 55px;
 }
+
 .doct-sec-3 h1 {
   font-size: 45px;
 }
@@ -539,6 +634,7 @@ ul li a:hover {
   display: flex;
   justify-content: space-around;
 }
+
 .doct-sec-3-1 {
   width: 300px;
   height: 350px;
@@ -597,9 +693,11 @@ ul li a:hover {
   font-weight: bold;
   background-color: transparent;
 }
+
 .doct-sec-4-2 {
   margin-left: -130px;
 }
+
 .doct-sec-4-2 h1 {
   font-size: 30px;
   padding-bottom: 25px;
@@ -609,6 +707,7 @@ ul li a:hover {
   font-size: 20px;
   margin-top: -20px;
 }
+
 /* doctor section 4 end here.... */
 
 /* doctor section end here....... */
@@ -616,6 +715,7 @@ ul li a:hover {
 /* Services section start here...... */
 
 /* service section 1 start here.... */
+
 .services-1 {
   background-image: url(/Images/image-10.png);
   background-size: cover;
@@ -632,13 +732,16 @@ ul li a:hover {
   padding-left: 150px;
   padding-top: 50px;
 }
+
 .sect-1 button{
   color: white;
   border-color: white;
 }
+
 .sec-1-1 h1 {
   font-size: 20px;
 }
+
 .sec-1-1 p {
   font-size: 15px;
 }
@@ -677,18 +780,22 @@ ul li a:hover {
   width: 450px;
   border-radius: 8px;
 }
+
 .sec-2-2 {
   padding-right: 200px;
 }
+
 .sec-2-2 h1 {
   padding-top: 35px;
   font-size: 45px;
 }
+
 .sec-2-2 p {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 15px;
 }
+
 /* service section 2 end here.....*/
 
 /* service section 3 start here... */
@@ -705,6 +812,7 @@ ul li a:hover {
 .sec-3-1 {
   justify-items: center;
 }
+
 .sec-3-1 h1 {
   font-size: 45px;
 }
@@ -714,15 +822,18 @@ ul li a:hover {
   display: flex;
   justify-content: space-around;
 }
+
 .sect-3 {
   display: grid;
 }
+
 .sect-3 img {
   width: 450px;
   height: 350px;
   border-radius: 8px;
   margin-bottom: 25px;
 }
+
 .sect-3 button {
   font-size: 25px;
   border-radius: 25px;
@@ -731,6 +842,7 @@ ul li a:hover {
   font-weight: 600;
   background: transparent;
 }
+
 /* service section 3 end here.... */
 
 /* service section 4 start here.... */
@@ -743,9 +855,11 @@ ul li a:hover {
   border-radius: 10px;
   background: #eed889;
 }
+
 .ser-4-1 {
   justify-items: center;
 }
+
 .ser-4-1 h1 {
   font-size: 55px;
   padding-bottom: 40px;
@@ -760,9 +874,11 @@ ul li a:hover {
 .sect-4 h1 {
   padding-bottom: 30px;
 }
+
 .sect-4 p {
   padding-bottom: 35px;
 }
+
 .sect-4 button {
   font-size: 25px;
   border-radius: 25px;
@@ -771,6 +887,7 @@ ul li a:hover {
   font-weight: 600;
   background: transparent;
 }
+
 /* service section 4 end here.... */
 
 /* service section 5 start here.... */
@@ -865,14 +982,17 @@ ul li a:hover {
   background-image: url(Images/image-13.png);
   background-size: cover;
 }
+
 .cont-sec-1 {
   padding-top: 200px;
   padding-left: 150px;
 }
+
 .cont-sec-1 h1 {
   font-size: 60px;
   padding-bottom: 15px;
 }
+
 .cont-sec-1 p {
   font-size: 20px;
 }
@@ -893,19 +1013,23 @@ ul li a:hover {
   justify-items: center;
   padding-top: 80px;
 }
+
 .cont-sec-2 h1 {
   font-size: 45px;
   padding-bottom: 10px;
 }
+
 .cont-sec-2 p {
   text-align: center;
   font-size: 15px;
 }
+
 .cont-sec-2-1{
   padding-top: 80px;
   display: flex;
   justify-content: space-around;
 }
+
 .cont-sec-2-2{
   width: 300px;
   height: 250px;
@@ -914,19 +1038,19 @@ ul li a:hover {
   text-align: center;
   padding-top: 90px;
 }
+
 .cont-sec-2-2 p{
   padding-top: 15px;
 }
 
 /* contact section 2 end here */
 
-
-
 /* contact section end here */
 
 /* Home section end here..... */
 
 /* meet me DoCt start here....  */
+
 .LiveDoct {
   color: #05190a;
   user-select: none;
@@ -1019,9 +1143,11 @@ ul li a:hover {
   z-index: 1;
   cursor: pointer;
 }
+
 .cover_box .icon_close:hover {
   background-color: red;
 }
+
 .form_box h2 {
   font-size: 2em;
   color: #05190a;
