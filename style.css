@@ -617,7 +617,7 @@ ul li a:hover {
 
 /* service section 1 start here.... */
 .services-1 {
-  background-image: url(/Images/image-1.png);
+  background-image: url(/Images/image-10.png);
   background-size: cover;
   background-position: center;
   margin-top: 90px;
@@ -625,13 +625,17 @@ ul li a:hover {
   width: 1700px;
   height: 580px;
   border-radius: 10px;
+  color: white;
 }
 
 .sect-1 {
   padding-left: 150px;
   padding-top: 50px;
 }
-
+.sect-1 button{
+  color: white;
+  border-color: white;
+}
 .sec-1-1 h1 {
   font-size: 20px;
 }
