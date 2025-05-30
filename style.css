@@ -555,6 +555,54 @@ padding-top: 20px;
 }
 /* about section 3 end here..... */
 
+/* About section 4 start here.... */
+
+.about-sec-4{
+  margin-top: 60px;
+  width: 1700px;
+  height: 580px;
+  background: #dfe1e0;
+  border-radius: 9px;
+}
+
+.abt-sec-4{
+  text-align: center;
+  padding-top: 55px;
+}
+
+.abt-sec-4 h1{
+  font-size: 45px;
+  padding-bottom: 10px;
+}
+
+.join_us_div{
+  display: flex;
+  justify-content: space-around;
+}
+
+.join_us_box{
+  width: 300px;
+  height: 250px;
+  border-radius: 8px;
+  background: #f0f7f4;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.join_us_box img{
+  width: 70px;
+  height: 70px;
+  padding-top: 30px;
+}
+
+.join_us_box h1{
+  font-size: 25px;
+  padding-bottom: 10px;
+  padding-top: 45px;
+}
+
+/* about section 4 end here.... */
+
 /* about section end here.... */
 
 /* Doctor section start here..... */
