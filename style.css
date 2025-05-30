@@ -238,6 +238,13 @@ ul li a:hover {
   justify-content: space-around;
   margin-top: 40px;
 }
+
+.availabl img{
+width: 80px;
+height: 80px;
+padding-bottom: 20px;
+}
+
 .availabl {
   border-radius: 10px;
   background: #d8f3ee;
@@ -245,6 +252,10 @@ ul li a:hover {
   height: 300px;
   padding-top: 65px;
   text-align: center;
+}
+
+.availabl h1{
+  padding-bottom: 10px;
 }
 
 /* home section 2 end here.... */
@@ -259,8 +270,17 @@ ul li a:hover {
   border-radius: 10px;
   background: #a5d6d6;
 }
+
 .about_doc {
   justify-items: center;
+}
+
+.doctor_available img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: -100px;
+  margin-bottom: 40px;
 }
 
 .about_doc h1 {
@@ -272,11 +292,13 @@ ul li a:hover {
   font-size: 25px;
   text-align: center;
 }
+
 .doctor_box {
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
 }
+
 .doctor_available {
   border-radius: 10px;
   background: #b8e5ee;
@@ -450,22 +472,29 @@ padding-top: 20px;
 
 .abt-sec-2-2-box {
   border-radius: 8px;
-  width: 220px;
-  height: 220px;
+  width: 250px;
+  height: 250px;
   background-color: #c9c8c8;
   margin-right: 20px;
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 50px;
+}
+
+.abt-sec-2-2-box img{
+  width: 70px;
+  height: 70px;
+  padding-top: 10px;
 }
 
 .abt-sec-2-2-box h1 {
   font-size: 25px;
-  text-align: center;
-  padding-top: 20px;
+  padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .abt-sec-2-2-box p {
   font-size: 15px;
-  text-align: center;
 }
 
 /* about section 2 end here..... */
@@ -506,18 +535,23 @@ padding-top: 20px;
   height: 250px;
   background-color: #afb3b1;
   border-radius: 8px;
+  text-align: center;
+}
+
+.abt-sec-3-box-text img{
+  width: 70px;
+  height: 70px;
+  padding-top: 40px;
 }
 
 .abt-sec-3-box-text h1 {
   font-size: 25px;
-  text-align: center;
-  padding-top: 70px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .abt-sec-3-box-text p {
   font-size: 15px;
-  text-align: center;
 }
 /* about section 3 end here..... */
 
@@ -717,25 +751,29 @@ padding-top: 20px;
 /* service section 1 start here.... */
 
 .services-1 {
-  background-image: url(/Images/image-10.png);
-  background-size: cover;
-  background-position: center;
+  background: #bef0f0;
   margin-top: 90px;
   padding-top: 45px;
   width: 1700px;
   height: 580px;
   border-radius: 10px;
-  color: white;
+}
+
+.service_div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-img img{
+  width: 650px;
+  height: 580px;
+  border-radius: 8px;
+  margin-top: -44px;
 }
 
 .sect-1 {
   padding-left: 150px;
   padding-top: 50px;
-}
-
-.sect-1 button{
-  color: white;
-  border-color: white;
 }
 
 .sec-1-1 h1 {
@@ -1041,6 +1079,12 @@ padding-top: 20px;
 
 .cont-sec-2-2 p{
   padding-top: 15px;
+}
+
+.cont-sec-2-2 img{
+  width: 70px;
+  height: 70px;
+  margin-top: -40px;
 }
 
 /* contact section 2 end here */
