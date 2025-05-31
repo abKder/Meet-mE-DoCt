@@ -239,10 +239,10 @@ ul li a:hover {
   margin-top: 40px;
 }
 
-.availabl img{
-width: 80px;
-height: 80px;
-padding-bottom: 20px;
+.availabl img {
+  width: 80px;
+  height: 80px;
+  padding-bottom: 20px;
 }
 
 .availabl {
@@ -254,7 +254,7 @@ padding-bottom: 20px;
   text-align: center;
 }
 
-.availabl h1{
+.availabl h1 {
   padding-bottom: 10px;
 }
 
@@ -275,7 +275,7 @@ padding-bottom: 20px;
   justify-items: center;
 }
 
-.doctor_available img{
+.doctor_available img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -312,8 +312,6 @@ padding-bottom: 20px;
 
 /* Home section 4 start here.... */
 
-
-
 /* home section 4 end here.... */
 
 /* Home section 5 start here...... */
@@ -345,7 +343,7 @@ padding-bottom: 20px;
 
 /* Home section 6 start here.... */
 
-.client-reviews{
+.client-reviews {
   margin-top: 60px;
   padding-top: 45px;
   width: 1700px;
@@ -354,23 +352,23 @@ padding-bottom: 20px;
   background: #eef3f3;
 }
 
-.Reviews_header{
-justify-content: center;
-text-align: center;
+.Reviews_header {
+  justify-content: center;
+  text-align: center;
 }
 
-.Reviews_header h1{
+.Reviews_header h1 {
   font-size: 45px;
   padding-bottom: 10px;
 }
 
-.Reviews_div{
+.Reviews_div {
   display: flex;
   justify-content: space-around;
   padding-top: 80px;
 }
 
-.Reviews_box{
+.Reviews_box {
   width: 300px;
   height: 250px;
   border-radius: 8px;
@@ -378,18 +376,18 @@ text-align: center;
   text-align: center;
 }
 
-.Reviews_box h1{
-font-size: 25px;
-padding-bottom: 8px;
-padding-top: 20px;
+.Reviews_box h1 {
+  font-size: 25px;
+  padding-bottom: 8px;
+  padding-top: 20px;
 }
 
-.Reviews_box p{
+.Reviews_box p {
   font-size: 15px;
   padding-bottom: 8px;
 }
 
-.Reviews_box img{
+.Reviews_box img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -397,7 +395,6 @@ padding-top: 20px;
 }
 
 /* home section 6 end here....... */
-
 
 /* Home section end here....... */
 
@@ -481,7 +478,7 @@ padding-top: 20px;
   margin-bottom: 50px;
 }
 
-.abt-sec-2-2-box img{
+.abt-sec-2-2-box img {
   width: 70px;
   height: 70px;
   padding-top: 10px;
@@ -508,6 +505,7 @@ padding-top: 20px;
   background: #dfe1e0;
   border-radius: 9px;
 }
+
 .abt-sec-3-text {
   justify-items: center;
   padding-top: 65px;
@@ -538,7 +536,7 @@ padding-top: 20px;
   text-align: center;
 }
 
-.abt-sec-3-box-text img{
+.abt-sec-3-box-text img {
   width: 70px;
   height: 70px;
   padding-top: 40px;
@@ -553,11 +551,12 @@ padding-top: 20px;
 .abt-sec-3-box-text p {
   font-size: 15px;
 }
+
 /* about section 3 end here..... */
 
 /* About section 4 start here.... */
 
-.about-sec-4{
+.about-sec-4 {
   margin-top: 60px;
   width: 1700px;
   height: 580px;
@@ -565,22 +564,22 @@ padding-top: 20px;
   border-radius: 9px;
 }
 
-.abt-sec-4{
+.abt-sec-4 {
   text-align: center;
   padding-top: 55px;
 }
 
-.abt-sec-4 h1{
+.abt-sec-4 h1 {
   font-size: 45px;
   padding-bottom: 10px;
 }
 
-.join_us_div{
+.join_us_div {
   display: flex;
   justify-content: space-around;
 }
 
-.join_us_box{
+.join_us_box {
   width: 300px;
   height: 250px;
   border-radius: 8px;
@@ -589,13 +588,13 @@ padding-top: 20px;
   margin-top: 100px;
 }
 
-.join_us_box img{
+.join_us_box img {
   width: 70px;
   height: 70px;
   padding-top: 30px;
 }
 
-.join_us_box h1{
+.join_us_box h1 {
   font-size: 25px;
   padding-bottom: 10px;
   padding-top: 45px;
@@ -643,6 +642,7 @@ padding-top: 20px;
   border-radius: 8px;
   font-size: large;
   font-weight: bold;
+  cursor: pointer;
 }
 .doct-sec-1-2 {
   height: 590px;
@@ -689,6 +689,7 @@ padding-top: 20px;
   font-size: large;
   font-weight: bold;
   background-color: transparent;
+  cursor: pointer;
 }
 
 /* doctor section 2 end here.... */
@@ -774,6 +775,7 @@ padding-top: 20px;
   font-size: large;
   font-weight: bold;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .doct-sec-4-2 {
@@ -807,12 +809,12 @@ padding-top: 20px;
   border-radius: 10px;
 }
 
-.service_div{
+.service_div {
   display: flex;
   justify-content: space-between;
 }
 
-.service-img img{
+.service-img img {
   width: 650px;
   height: 580px;
   border-radius: 8px;
@@ -927,6 +929,7 @@ padding-top: 20px;
   width: 450px;
   font-weight: 600;
   background: transparent;
+  cursor: pointer;
 }
 
 /* service section 3 end here.... */
@@ -972,6 +975,7 @@ padding-top: 20px;
   width: 200px;
   font-weight: 600;
   background: transparent;
+  cursor: pointer;
 }
 
 /* service section 4 end here.... */
@@ -1000,7 +1004,6 @@ padding-top: 20px;
 
 .ser-5-1 p {
   padding-bottom: 25px;
-  /* font-size: 15px; */
 }
 
 .ser-5-2 {
@@ -1110,13 +1113,13 @@ padding-top: 20px;
   font-size: 15px;
 }
 
-.cont-sec-2-1{
+.cont-sec-2-1 {
   padding-top: 80px;
   display: flex;
   justify-content: space-around;
 }
 
-.cont-sec-2-2{
+.cont-sec-2-2 {
   width: 300px;
   height: 250px;
   border-radius: 8px;
@@ -1125,11 +1128,11 @@ padding-top: 20px;
   padding-top: 90px;
 }
 
-.cont-sec-2-2 p{
+.cont-sec-2-2 p {
   padding-top: 15px;
 }
 
-.cont-sec-2-2 img{
+.cont-sec-2-2 img {
   width: 70px;
   height: 70px;
   margin-top: -40px;
@@ -1351,9 +1354,9 @@ padding-top: 20px;
   text-decoration: underline;
 }
 
-/* footer section style start here */
+/* footer section style start here
 
-/* .footer {
+.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -1388,6 +1391,8 @@ padding-top: 20px;
 .social_icon a:hover {
   color:#2196f3;
 } */
+
+/* javaScript connection here... */
 
 section {
   display: none;

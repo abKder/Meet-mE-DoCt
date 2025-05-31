@@ -19,6 +19,16 @@ function activatePopup() {
 
 function deactivatePopup() {
   Cover_box.classList.remove("active-popup");
+
+  // Show Home section when popup closes
+  const sections = document.querySelectorAll("section");
+  sections.forEach((section) => section.classList.remove("active"));
+
+  const homeSection = document.getElementById("home");
+  if (homeSection) {
+    homeSection.classList.add("active");
+    homeSection.scrollIntoView({ behavior: "smooth" });
+  }
 }
 
 Register_link.addEventListener("click", activateCoverBox);
@@ -26,39 +36,24 @@ Login_link.addEventListener("click", deactivateCoverBox);
 Login.addEventListener("click", activatePopup);
 iconClose.addEventListener("click", deactivatePopup);
 
+const links = document.querySelectorAll("[data-target]");
+const sections = document.querySelectorAll("section");
 
-    const links = document.querySelectorAll('[data-target]');
-    const sections = document.querySelectorAll('section');
+links.forEach((link) => {
+  link.addEventListener("click", function (e) {
+    // Stop default anchor behavior
+    e.preventDefault();
 
-    links.forEach(link => {
-      link.addEventListener('click', function(e) {
-        e.preventDefault(); // Stop default anchor behavior
+    const targetId = this.dataset.target;
 
-        const targetId = this.dataset.target;
+    // Hide all sections
+    sections.forEach((section) => section.classList.remove("active"));
 
-        // Hide all sections
-        sections.forEach(section => section.classList.remove('active'));
-
-        // Show the clicked section
-        const targetSection = document.getElementById(targetId);
-        if (targetSection) {
-          targetSection.classList.add('active');
-          targetSection.scrollIntoView({ behavior: 'smooth' });
-        }
-      });
-    });
-
-
-  function deactivatePopup() {
-  Cover_box.classList.remove("active-popup");
-
-  // Show Home section when popup closes
-  const sections = document.querySelectorAll('section');
-  sections.forEach(section => section.classList.remove('active'));
-
-  const homeSection = document.getElementById('home');
-  if (homeSection) {
-    homeSection.classList.add('active');
-    homeSection.scrollIntoView({ behavior: 'smooth' });
-  }
-}
+    // Show the clicked section
+    const targetSection = document.getElementById(targetId);
+    if (targetSection) {
+      targetSection.classList.add("active");
+      targetSection.scrollIntoView({ behavior: "smooth" });
+    }
+  });
+});
